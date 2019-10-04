@@ -5,7 +5,15 @@ import styles from './App.module.scss';
 function App() {
   return (
     <div className={styles.App}>
-      個人網站
+      <header className={styles.header}>
+        header
+      </header>
+      <section className={styles.content}>
+        content
+      </section>
+      <footer>
+        footer
+      </footer>
     </div>
   );
 }
