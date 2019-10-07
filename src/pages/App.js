@@ -10,6 +10,8 @@ function App (props) {
   const location = props.location;
   return (
     <div className={styles.App}>
+
+      {/* header */}
       <header className={styles.header}>
         <div className={styles.nav}>
           <Link style={{ textDecoration: 'none' }} to="/">
@@ -23,11 +25,15 @@ function App (props) {
           </div>
         </div>
       </header>
+
+      {/* Content */}
       <section className={styles.content}>
         <Route path="/" exact component={ Home } />
         <Route path="/demo" exact component={ Demo } />
         <Route path="/demo/:id" exact component={ demoDetail } />
       </section>
+
+      {/* Footer */}
       <footer className={styles.footer}>
         <h3>
           <b>© 2019 Pitt Wu</b>
