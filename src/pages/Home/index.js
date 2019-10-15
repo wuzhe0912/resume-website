@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
+import { styles } from './style.module.scss'
 
 export default () => {
-  return <div>Home</div>
+  return <div className={styles.wrap}>Home</div>
 }
