@@ -1,3 +1,41 @@
-.wrap {
-  flex: 1;
+.brief {
+  img,
+  ul,
+  p {
+    margin-top: 20px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      padding: 6px 10px;
+      background: rgba(87, 199, 255, .1);
+      border-radius: 3px;
+    }
+  }
+
+  .demo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    h3 {
+      font-size: 30px;
+      padding-bottom: 12px;
+      color: rgba(0, 0, 0, .8);
+      font-weight: 400;
+    }
+    p {
+      color: rgba(0, 0, 0, .7);
+    }
+  }
 }
